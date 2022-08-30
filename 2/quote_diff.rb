@@ -6,3 +6,8 @@ puts "good morning\ngood night"
 puts 'good morning\ngood nignt'
 
 # => good morning\ngood nignt
+
+name = 'mojo'
+puts "Hello, #{name}!"
+
+puts 'Hello, #{name}!'
