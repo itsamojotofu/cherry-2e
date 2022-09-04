@@ -5,3 +5,11 @@ numbers.each do |n|
 end
 
 puts sum
+
+# block - delete_if
+
+numbers.delete_if do |n|
+  n.odd?
+end
+
+puts numbers  
