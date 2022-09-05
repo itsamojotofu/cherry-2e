@@ -5,5 +5,9 @@ puts nums.sum
 puts nums.sum {|n| n*2}
 
 #assign default starting point
-
 puts nums.sum(10)
+
+# use case with strings
+letters = ['l','e','t','t','e','r']
+puts letters.sum('')
+
