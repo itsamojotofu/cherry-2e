@@ -18,3 +18,7 @@ puts letters.join('_')
 # join is fine with both integer and string
 data = ['a','b','1','c','2','3']
 puts data.join
+
+# what sum can do, but join cannot do
+abc = ['a','b','c']
+puts abc.sum('=>') {|n| n.upcase}
