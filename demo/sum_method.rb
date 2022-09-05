@@ -7,10 +7,14 @@ puts nums.sum {|n| n*2}
 #assign default starting point
 puts nums.sum(10)
 
-# use case with strings
+# use case with string
 letters = ['l','e','t','t','e','r']
 puts letters.sum('')
 
 # with join method
 puts letters.join
 puts letters.join('_')
+
+# join is fine with both integer and string
+data = ['a','b','1','c','2','3']
+puts data.join
