@@ -11,3 +11,6 @@ puts nums.sum(10)
 letters = ['l','e','t','t','e','r']
 puts letters.sum('')
 
+# with join method
+puts letters.join
+puts letters.join('_')
