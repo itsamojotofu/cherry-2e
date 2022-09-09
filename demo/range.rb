@@ -21,3 +21,8 @@ puts water_liquid?(100)
 # create array with range
 puts (1..5).to_a
 puts ('a'..'f').to_a
+
+# assign a inverval value
+odds = []
+(1..10).step(2) {|n| odds << n}
+puts odds
