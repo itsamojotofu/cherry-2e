@@ -10,6 +10,7 @@ num = [1,2,3,4,5]
 puts num[1..3]
 
 def water_liquid?(temp)
+  # 0 <= temp && temp < 100
   (0...100).include?(temp)
 end
 
