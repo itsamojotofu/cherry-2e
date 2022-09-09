@@ -17,3 +17,7 @@ end
 puts water_liquid?(-1)
 puts water_liquid?(50)
 puts water_liquid?(100)
+
+# create array with range
+puts (1..5).to_a
+puts ('a'..'f').to_a
