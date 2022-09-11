@@ -10,4 +10,7 @@ class RgbTest < Minitest::Test
     # error case
     assert_equal '#110c32', to_hex(100,40,15)
   end
+  def test_to_ints
+    assert_equal [0,0,0], to_ints('#000000')
+  end
 end
