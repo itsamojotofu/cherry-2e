@@ -8,5 +8,6 @@ def to_hex(r,g,b)
 end
 
 def to_ints(hex)
-  [0,0,0]
+  r,g,b = hex[1..2], hex[3..4], hex[5..6]
+  [r.hex,g.hex,b.hex]
 end
