@@ -8,7 +8,8 @@ def to_hex(r,g,b)
 end
 
 def to_ints(hex)
-  r,g,b = hex[1..2], hex[3..4], hex[5..6]
+  # replace r,g,b = hex[1..2], hex[3..4], hex[5..6] with validation(scan method)
+  r,g,b = hex.scan(/\w\w/)
   [r,g,b].map do |s|
     s.hex
   end
