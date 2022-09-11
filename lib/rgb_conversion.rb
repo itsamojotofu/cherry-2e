@@ -9,7 +9,5 @@ end
 
 def to_ints(hex)
   # replace r,g,b = hex[1..2], hex[3..4], hex[5..6] with validation(scan method)
-  hex.scan(/\w\w/).map do |s|
-    s.hex
-  end
+  hex.scan(/\w\w/).map(&:hex)
 end
