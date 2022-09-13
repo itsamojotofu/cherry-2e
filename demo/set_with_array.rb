@@ -7,7 +7,7 @@ puts a-b # diffrence
 puts "----"
 puts a&b # common
 
-# Set is more effective than Array
+# Set class is more effective than Array
 
 require 'set'
 
