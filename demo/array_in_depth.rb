@@ -12,3 +12,5 @@ puts a.last(2)
 
 a[1,3] = 10
 puts a
+a.push(20)
+puts a
