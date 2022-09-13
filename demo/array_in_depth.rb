@@ -5,3 +5,8 @@ puts a[a.size-1]
 puts a[-1]
 # reuturn 2 elements, startign from the second last item
 puts a[-2,2]
+# try last method
+puts "break"
+puts a.last
+puts a.last(2)
+
