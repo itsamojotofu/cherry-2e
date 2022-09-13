@@ -10,3 +10,5 @@ puts "break"
 puts a.last
 puts a.last(2)
 
+a[1,3] = 10
+puts a
