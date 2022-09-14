@@ -14,3 +14,15 @@ a[1,3] = 10
 puts a
 a.push(20)
 puts a
+
+puts "break"
+# cut off 300
+a,b = 100, 200, 300
+puts a, b
+puts "break"
+c,*d = 100, 200, 300
+puts c, d
+puts "break"
+# ignore following values
+e,* = 100, 200, 300
+puts e
