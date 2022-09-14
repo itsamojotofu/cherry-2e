@@ -26,3 +26,12 @@ puts "break"
 # ignore following values
 e,* = 100, 200, 300
 puts e
+
+a,*b,c,d = 1,2,3,4,5
+puts a
+puts "break"
+puts b
+puts "break"
+puts c
+puts "break"
+puts d
