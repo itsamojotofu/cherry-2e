@@ -47,3 +47,11 @@ a = []
 b = [2,3]
 a.push(1)
 a.push(b) #[1, 2, 3]
+
+fruits = ['grape','orange']
+food = 'grape'
+
+case food
+when *fruits # = when 'grape', 'orange' 
+   puts 'tasty!'
+end
