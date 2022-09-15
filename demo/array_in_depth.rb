@@ -35,3 +35,10 @@ puts "break"
 puts c
 puts "break"
 puts d
+
+puts "-----"
+a = []
+b = [2,3]
+a.push(1)
+a.push(b) #[1, [2, 3]
+
