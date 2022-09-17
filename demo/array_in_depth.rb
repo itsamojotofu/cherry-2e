@@ -56,7 +56,7 @@ when *fruits # = when 'grape', 'orange'
    puts 'tasty!'
 end
 
-# variadic arguments
+# 4.7.7 variadic arguments
 def greet(*names)
    "#{names.join('と')}、こんにちは！"
 end
@@ -70,3 +70,8 @@ def foo(a,*b,c,d)
 end
 
 foo(1,2,3,4,5)
+
+# 4.7.8
+
+a = [1,2,3]
+b = [-1,0,*a,4,5] # = [-1,0] + a + [4,5]
