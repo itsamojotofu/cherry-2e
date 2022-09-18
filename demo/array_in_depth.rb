@@ -80,3 +80,10 @@ b = [-1,0,*a,4,5] # = [-1,0] + a + [4,5]
 
 [1, 2, 3] == [1, 2, 3] # true
 [1, 2, 3] == [1, 2, 3,4] # false
+
+# 4.7.10
+
+array = %w!apple melon orange! # ['apple', 'melon','orange']
+puts array
+array = %w(apple melon grape) # ['apple', 'melon','grape']
+puts array
