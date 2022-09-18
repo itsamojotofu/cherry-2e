@@ -87,3 +87,8 @@ array = %w!apple melon orange! # ['apple', 'melon','orange']
 puts array
 array = %w(apple melon grape) # ['apple', 'melon','grape']
 puts array
+
+#  when want to include blank space
+
+array = %w(apple\ pen melon\ pen grape)
+puts array
