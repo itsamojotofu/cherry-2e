@@ -92,3 +92,7 @@ puts array
 
 array = %w(apple\ pen melon\ pen grape)
 puts array
+
+# 4.7.11
+
+puts 'Ruby'.chars
