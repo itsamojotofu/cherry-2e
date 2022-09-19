@@ -96,3 +96,4 @@ puts array
 # 4.7.11
 
 puts 'Ruby'.chars
+puts 'Ruby, Python, Typescript'.split(',')
