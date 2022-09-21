@@ -97,3 +97,9 @@ puts array
 
 puts 'Ruby'.chars
 puts 'Ruby, Python, Typescript'.split(',')
+
+# 4.7.12
+
+a = Array.new(5) # => [nil, nil, nil, nil, nil]
+a = Array.new(5,0) # => [0, 0, 0, 0, 0]
+# 
