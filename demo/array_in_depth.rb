@@ -104,3 +104,10 @@ a = Array.new(5) # => [nil, nil, nil, nil, nil]
 a = Array.new(5,0) # => [0, 0, 0, 0, 0]
 # argument can be a block
 a = Array.new(6) { |n| n % 2 + 1}
+
+# 4.7.13
+
+a = Array.new(5,'default')
+a[0] = a[0].upcase!
+puts a # ["DEFAULT", "DEFAULT", "DEFAULT", "DEFAULT", "DEFAULT"]
+
