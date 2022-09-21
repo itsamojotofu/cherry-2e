@@ -111,3 +111,6 @@ a = Array.new(5,'default')
 a[0] = a[0].upcase!
 puts a # ["DEFAULT", "DEFAULT", "DEFAULT", "DEFAULT", "DEFAULT"]
 
+a = Array.new(5) {'default'}
+a[0] = a[0].upcase!
+puts a # ["DEFAULT", "default", "default", "default", "default"]
