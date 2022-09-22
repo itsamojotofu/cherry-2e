@@ -116,3 +116,8 @@ a[0] = a[0].upcase!
 puts a # ["DEFAULT", "default", "default", "default", "default"]
 
 # 4.7.14 - mutable? immutable?
+
+a = Array.new(5,0)
+n = a[0]
+# can't exec destructive update for integer
+# n.neagtive! 
