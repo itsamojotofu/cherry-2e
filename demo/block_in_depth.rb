@@ -15,3 +15,5 @@ fruits = ['apple','lemon','grape']
 p fruits.each
 #<Enumerator: ["apple", "lemon", "grape"]:delete_if>
 p fruits.delete_if
+
+# 4.8.3
