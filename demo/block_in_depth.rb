@@ -5,4 +5,4 @@ fruits = ['apple','lemon','grape']
 fruits.each_with_index {|f,i| puts "#{i}:#{f}"}
 
 # 4.8.2
-
+fruits.map.with_index {|f,i| puts "#{i}:#{f}"}
