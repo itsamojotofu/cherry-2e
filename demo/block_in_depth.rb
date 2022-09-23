@@ -11,5 +11,7 @@ fruits.delete_if.with_index {|f,i| f.include?('a')} # => lemon
 
 # loop method return enumerator object
 fruits = ['apple','lemon','grape']
+# <Enumerator: ["apple", "lemon", "grape"]:each>
 p fruits.each
-p fruits.delte_if
+#<Enumerator: ["apple", "lemon", "grape"]:delete_if>
+p fruits.delete_if
