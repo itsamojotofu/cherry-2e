@@ -9,7 +9,7 @@ fruits.map.with_index {|f,i| puts "#{i}:#{f}"}
 # with_index can be combined with others
 fruits.delete_if.with_index {|f,i| f.include?('a')} # => lemon
 
-# loop method return enumerator object
+# loop method return #Enumerator. that is, with_index is instance method of #Enumerator
 fruits = ['apple','lemon','grape']
 # <Enumerator: ["apple", "lemon", "grape"]:each>
 p fruits.each
