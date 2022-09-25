@@ -19,3 +19,4 @@ p fruits.delete_if
 # 4.8.3
 # start index from 1
 fruits.each.with_index(1) {|f,i| puts "#{i}:#{f}"}
+
