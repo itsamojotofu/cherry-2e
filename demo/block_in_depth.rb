@@ -29,11 +29,16 @@ dimensions = [
   [50,60],
 ]
 
-# calculate areas
+# calculate areas with a block array
 areas = []
 dimensions.each do |dimension|
   length = dimension[0]
   width = dimension[1]
+  areas << length * width
+end
+
+
+dimensions.each do |length, width|
   areas << length * width
 end
 
