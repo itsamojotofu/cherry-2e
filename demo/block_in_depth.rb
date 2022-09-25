@@ -37,9 +37,12 @@ dimensions.each do |dimension|
   areas << length * width
 end
 
-
+# split a block array into params
 dimensions.each do |length, width|
   areas << length * width
 end
 
 puts areas
+
+# dimention = [100, 200], index = 0
+dimension, index = [[100, 200], 0]
