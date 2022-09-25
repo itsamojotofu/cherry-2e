@@ -46,3 +46,5 @@ puts areas
 
 # dimention = [100, 200], index = 0
 dimension, index = [[100, 200], 0]
+# length = 100, width = 200, index = 0
+(length,width),index = [[100, 200], 0]
