@@ -21,3 +21,10 @@ p fruits.delete_if
 fruits.each.with_index(1) {|f,i| puts "#{i}:#{f}"}
 
 # 4.8.4
+
+dimensions = [
+  # [vertical, holizontal]
+  [10,20],
+  [30,40],
+  [50,60],
+]
