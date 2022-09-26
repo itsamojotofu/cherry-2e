@@ -50,3 +50,6 @@ dimension, index = [[100, 200], 0]
 (length,width),index = [[100, 200], 0]
 
 # 4.8.5
+puts "---------"
+
+['1','20','300'].map {_1.rjust(3,'0')}
