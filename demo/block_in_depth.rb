@@ -56,3 +56,9 @@ puts "---------"
 ['1','20','300'].map { puts _1.rjust(3,'0')}
 # _1 is first block parameter, _2 is index here
 ['first','second','third'].map.with_index(1) { puts "#{_2}: #{_1}" }
+
+[[1,2,3],[4,5,6]].each do |values|
+  values.each do
+    puts _1
+  end
+end
