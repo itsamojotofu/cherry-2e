@@ -69,7 +69,8 @@ numbers = [1,2,3,4]
 sum = 0
 puts sum
 
-numbers.each do |n,sum|
+#sum is block local variable.
+numbers.each do |n;sum|
   sum = 10
   sum += n
   puts sum
