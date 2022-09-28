@@ -77,3 +77,5 @@ numbers.each do |n;sum|
 end
 
 puts sum
+
+# 4.8.7
