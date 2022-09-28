@@ -78,4 +78,4 @@ end
 
 puts sum
 
-# 4.8.7
+# 4.8.7 - other use cases of block
