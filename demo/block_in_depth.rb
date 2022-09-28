@@ -79,3 +79,9 @@ end
 puts sum
 
 # 4.8.7 - other use cases of block
+
+File.open('sample.txt','w'). do |file|
+  file.puts('１行目のテキストです。')
+  file.puts('２行目のテキストです。')
+  file.puts('３行目のテキストです。')
+end
