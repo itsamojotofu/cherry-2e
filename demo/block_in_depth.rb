@@ -80,6 +80,7 @@ puts sum
 
 # 4.8.7 - other use cases of block
 
+# don't need to add File.close due to the block
 File.open('sample.txt','w'). do |file|
   file.puts('１行目のテキストです。')
   file.puts('２行目のテキストです。')
