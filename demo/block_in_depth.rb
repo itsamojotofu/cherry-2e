@@ -86,3 +86,5 @@ File.open('sample.txt','w'). do |file|
   file.puts('２行目のテキストです。')
   file.puts('３行目のテキストです。')
 end
+
+# 4.8.8
