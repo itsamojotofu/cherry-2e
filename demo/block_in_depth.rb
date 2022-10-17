@@ -103,3 +103,8 @@ end
 
 # option 2
 [1,2,3].delete(100) {"NG"}
+
+# another form of option 1
+a.delete 100 do
+  puts "NG"
+end
