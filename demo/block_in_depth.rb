@@ -93,3 +93,13 @@ a = [1,2,3]
 
 # return nil
 a.delete(100)
+
+# nil block return what's inside
+
+# option 1
+a.delete(100) do
+  puts "NG"
+end
+
+# option 2
+[1,2,3].delete(100) {"NG"}
