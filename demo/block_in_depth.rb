@@ -89,3 +89,7 @@ end
 
 # 4.8.8 - difference between do...end and {}
 
+a = [1,2,3]
+
+# return nil
+a.delete(100)
