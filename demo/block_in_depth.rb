@@ -108,3 +108,5 @@ end
 a.delete 100 do
   puts "NG"
 end
+
+# 4.9
