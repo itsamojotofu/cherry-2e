@@ -110,3 +110,7 @@ a.delete 100 do
 end
 
 # 4.9
+
+numbers = [10,20,30,40,50,60]
+puts numbers[2..]
+puts numbers[..1]
