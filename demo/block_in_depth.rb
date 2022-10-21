@@ -108,7 +108,7 @@ end
 a.delete 100 do
   puts "NG"
 end
-
+  
 # 4.9
 
 numbers = [10,20,30,40,50,60]
