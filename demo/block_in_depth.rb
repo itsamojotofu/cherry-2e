@@ -151,3 +151,8 @@ while a.size < 5
 end
 a
 
+a = [1,2,3,4,5]
+until a.size <= 3
+  a.delete_at(-1)
+end
+a
