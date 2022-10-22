@@ -117,3 +117,4 @@ puts numbers[..1]
 
 # 4.10
 
+# 4.10.1 - times method
