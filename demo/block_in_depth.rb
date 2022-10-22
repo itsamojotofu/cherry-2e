@@ -136,3 +136,5 @@ a
 a = []
 14.downto(10){|n| a << n}
 a
+
+# 4.10.3 - step method
