@@ -128,3 +128,7 @@ sum = 0
 sum # => 5
 
 # 4.10.2 - upto and downto method
+
+a = []
+10.upto(14){|n| a << n}
+a
