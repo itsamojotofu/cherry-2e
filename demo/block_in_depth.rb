@@ -144,6 +144,7 @@ a = []
 a
 
 # 4.10.4 - while vs until
+#  becareful for infinite loop
 
 a = []
 while a.size < 5
