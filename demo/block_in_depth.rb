@@ -144,3 +144,10 @@ a = []
 a
 
 # 4.10.4 - while vs until
+
+a = []
+while a.size < 5
+  a << 1
+end
+a
+
