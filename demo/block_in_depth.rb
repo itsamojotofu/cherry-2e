@@ -142,3 +142,5 @@ a
 a = []
 1.step(10, 3) {|n| a << n}
 a
+
+# 4.10.4 - while vs until
