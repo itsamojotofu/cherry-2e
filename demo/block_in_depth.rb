@@ -120,3 +120,9 @@ puts numbers[..1]
 # 4.10.1 - times method
 
 sum = 0
+5.times {|n| sum+= n}
+sum # => 10
+
+sum = 0
+5.times { sum+= 1}
+sum # => 5
