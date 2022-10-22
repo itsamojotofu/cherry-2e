@@ -114,3 +114,6 @@ end
 numbers = [10,20,30,40,50,60]
 puts numbers[2..]
 puts numbers[..1]
+
+# 4.10
+
