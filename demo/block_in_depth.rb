@@ -126,3 +126,5 @@ sum # => 10
 sum = 0
 5.times { sum+= 1}
 sum # => 5
+
+# 4.10.2 - upto and downto method
