@@ -182,6 +182,8 @@ loop do
 end
 
 numbers = [1,2,3]
+
+# loop do can be replaced with while true
 loop do
   n = numbers.sample
   puts n
