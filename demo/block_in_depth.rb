@@ -117,7 +117,7 @@ puts numbers[..1]
 
 # 4.10
 
-# 4.10.1 - times method
+# 4.10.1 - times 
 
 sum = 0
 5.times {|n| sum+= n}
@@ -127,7 +127,7 @@ sum = 0
 5.times { sum+= 1}
 sum # => 5
 
-# 4.10.2 - upto and downto method
+# 4.10.2 - upto and downto 
 
 a = []
 10.upto(14){|n| a << n}
@@ -137,7 +137,7 @@ a = []
 14.downto(10){|n| a << n}
 a
 
-# 4.10.3 - step method
+# 4.10.3 - step 
 
 a = []
 1.step(10, 3) {|n| a << n}
@@ -157,3 +157,5 @@ until a.size <= 3
   a.delete_at(-1)
 end
 a
+
+# 4.10.5 - for
