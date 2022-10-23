@@ -182,7 +182,6 @@ loop do
 end
 
 numbers = [1,2,3]
-
 loop do
   n = numbers.sample
   puts need
