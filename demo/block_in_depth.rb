@@ -159,3 +159,15 @@ end
 a
 
 # 4.10.5 - for
+numbers = [1,2,3,4]
+
+for n in numbers
+  sum += n
+end
+# => 10
+sum
+
+sum = 0
+for n in numbers do sum += n end
+sum
+
