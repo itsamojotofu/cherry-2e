@@ -172,3 +172,7 @@ for n in numbers do sum += n end
 sum
 
 # 4.10.6 - loop
+
+while true
+  # infinite loop
+end
