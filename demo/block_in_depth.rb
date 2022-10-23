@@ -180,3 +180,9 @@ end
 loop do
   # infinite loop
 end
+
+numbers = [1,2,3]
+
+loop do
+  
+end
