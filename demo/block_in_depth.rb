@@ -176,3 +176,7 @@ sum
 while true
   # infinite loop
 end
+
+loop do
+  # infinite loop
+end
