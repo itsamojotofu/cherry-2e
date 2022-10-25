@@ -199,3 +199,12 @@ end
 factorial(5)
 
 # 4.11 - control loop methods
+
+# 4.11.1 - break
+
+numbers = [1,2,3,4,5].shuffle
+numbers.each do |n|
+  puts n
+  # break can return value
+  break 123 if n == 5
+end
