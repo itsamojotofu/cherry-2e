@@ -191,3 +191,9 @@ loop do
 end
 
 # 4.10.7 - recursive call
+
+def factorial(n)
+  n > 0 ? n * factorial(n -1) : 1
+end
+
+factorial(5)
