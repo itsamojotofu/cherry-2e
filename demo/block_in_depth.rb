@@ -210,3 +210,19 @@ numbers.each do |n|
 end
 
 # 4.11.2 - throw and catch
+
+fruits = ['apple','banana','grape']
+numbers = [1,2,3]
+
+catch :done do
+  fruits.shuffle.each do |f|
+    numbers.shuffle.each do |n|
+      puts "#{f}, #{n}"
+      if f == 'grape' && n == 3
+        # escape from the all loops
+        throw :done, 'you got the third grape!'
+      end
+    end
+  end
+end
+
