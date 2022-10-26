@@ -208,3 +208,5 @@ numbers.each do |n|
   # break can return value
   break 123 if n == 5
 end
+
+# 4.11.2 - throw and catch
