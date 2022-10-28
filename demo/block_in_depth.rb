@@ -264,6 +264,7 @@ end
 numbers = [1,2,3,4,5]
 
 numbers.each do |n|
+  # next skip the current loop and start the next loop
   next if n.odd?
   puts n
 end
