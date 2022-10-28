@@ -238,5 +238,26 @@ def greet(country)
   end
 end
 
+def calc_w_break
+  numbers = [1,2,3,4]
+  target = nil
+  numbers.shuffle.each do |n|
+    target = n
+    break if n.even?
+  end
+  target * 10
+end
+
+def calc_w_return
+  numbers = [1,2,3,4]
+  target = nil
+  numbers.shuffle.each do |n|
+    target = n
+    return if n.even?
+  end
+  # return nil because return gets out of not just loop but also method
+  target * 10 
+end
+
 
 
