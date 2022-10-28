@@ -259,5 +259,3 @@ def calc_w_return
   target * 10 
 end
 
-
-
