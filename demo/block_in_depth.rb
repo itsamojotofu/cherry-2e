@@ -230,5 +230,13 @@ end
 
 def greet(country)
   return 'Please enter country' if country.nil?
+
+  if country == 'Japan'
+    return "こんちは"
+  else
+    return "Hello"
+  end
 end
+
+
 
