@@ -232,9 +232,9 @@ def greet(country)
   return 'Please enter country' if country.nil?
 
   if country == 'Japan'
-    return "こんちは"
+    "こんちは"
   else
-    return "Hello"
+    "Hello"
   end
 end
 
