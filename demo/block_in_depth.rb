@@ -227,3 +227,8 @@ catch :done do
 end
 
 # 4.11.3 - dif between break and return
+
+def greet(country)
+  return 'Please enter country' if country.nil?
+end
+
