@@ -282,4 +282,17 @@ vege_list.each do |v|
   redo unless answer == 'Yes'
 end
 
+count = 0
+
+vege_list.each do |v|
+  print "Do you like #{v}? =>"
+  answer = 'No'
+  puts answer
+    
+  # limit the redo times w/ count
+  count += 1
+  redo if answer != 'Yes' && count < 2
+  count = 0
+end
+
 
