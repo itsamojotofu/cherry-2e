@@ -271,3 +271,15 @@ end
 
 # 4.11.5 - redo  
 
+vege_list = ['tomato', 'lettace', 'eggplant']
+
+vege_list.each do |v|
+  print "Do you like #{v}? =>"
+  answer = ['Yes','No'].sample
+  puts answer
+
+  # redo if answer is no
+  redo unless answer == 'Yes'
+end
+
+
