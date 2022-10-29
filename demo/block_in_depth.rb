@@ -294,5 +294,3 @@ vege_list.each do |v|
   redo if answer != 'Yes' && count < 2
   count = 0
 end
-
-
