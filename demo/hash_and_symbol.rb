@@ -16,3 +16,5 @@ currencies = {'japan' => 'yen', 'us'  => 'dollar', 'india'  => 'ruppe'}
 currencies['italy'] = 'euro'
 # overwrite
 currencies['japan'] = '円'
+# return nil for undefined key
+currencies['brazil']
