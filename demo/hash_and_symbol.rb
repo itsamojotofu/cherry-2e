@@ -20,3 +20,9 @@ currencies['japan'] = '円'
 currencies['brazil']
 
 # 5.2.2 - hash loop
+
+currencies.each do |key, value|
+  puts "#{key}: #{value}"
+end
+
+#
