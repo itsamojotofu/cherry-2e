@@ -18,3 +18,5 @@ currencies['italy'] = 'euro'
 currencies['japan'] = '円'
 # return nil for undefined key
 currencies['brazil']
+
+# 5.2.2 - hash loop
