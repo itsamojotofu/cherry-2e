@@ -59,3 +59,5 @@ x.delete('d') {|key| "Not found: #{key}"} # block creates returned value
 
 # 5.3.2 - how to use symbol
 
+currencies = {:japan => 'yen', :us  => 'dollar', :india => 'ruppe'}
+currencies[:japan]
