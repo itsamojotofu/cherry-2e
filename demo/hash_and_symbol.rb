@@ -84,3 +84,8 @@ currencies[:us]
 # symbol as key and value
 currencies = {japan: :yen, us: :dollar, india: :rupee}
 
+# 5.4.2 - bad format
+
+idea = {'peanut' => 123, noodle: 234}
+idea['peanut']
+idea[:noodle]
