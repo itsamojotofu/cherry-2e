@@ -25,4 +25,4 @@ currencies.each do |key, value|
   puts "#{key}: #{value}"
 end
 
-#
+# 5.2.3 - hash actions continued
