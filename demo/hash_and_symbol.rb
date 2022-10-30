@@ -5,3 +5,7 @@
 # feet - 3.28
 # inch - 39.37
 
+# 5.2 - hash
+
+{}.class
+
