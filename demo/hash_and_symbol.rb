@@ -39,3 +39,5 @@ x == y # false
 
 x.delete('d') # return nil
 x.delete('d') {|key| "Not found: #{key}"} # block creates returned value
+
+# 5.3 - symbol
