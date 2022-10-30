@@ -81,4 +81,6 @@ end
 # : reversed instead of using =>
 currencies = {japan: 'yen', us:'dollar', india: 'rupee'}
 currencies[:us]
+# symbol as key and value
+currencies = {japan: :yen, us: :dollar, india: :rupee}
 
