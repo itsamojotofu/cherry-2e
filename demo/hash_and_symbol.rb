@@ -61,3 +61,16 @@ x.delete('d') {|key| "Not found: #{key}"} # block creates returned value
 
 currencies = {:japan => 'yen', :us  => 'dollar', :india => 'ruppe'}
 currencies[:japan]
+
+# manage status w/ symbol
+
+status = :doing
+
+case status
+when :todo
+  'to do'
+when :doing
+  'in progress'
+when :done
+  'done'
+end
