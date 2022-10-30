@@ -36,3 +36,5 @@ x == y # true
 x.delete('a')
 
 x == y # false
+
+x.delete('d') # return nil
