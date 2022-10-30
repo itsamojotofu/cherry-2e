@@ -9,3 +9,4 @@
 
 {}.class
 
+# 5.2.1 - hash actions
