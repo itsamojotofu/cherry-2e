@@ -74,3 +74,5 @@ when :doing
 when :done
   'done'
 end
+
+# 5.4 - hash again
