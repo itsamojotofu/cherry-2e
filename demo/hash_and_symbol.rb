@@ -45,3 +45,11 @@ x.delete('d') {|key| "Not found: #{key}"} # block creates returned value
 :apple.class
 
 # 5.3.1 - diff btw symbol and string
+
+# same object
+:apple.object_id
+:apple.object_id
+# diff objects
+'apple'.object_id
+'apple'.object_id
+
