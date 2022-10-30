@@ -55,3 +55,4 @@ x.delete('d') {|key| "Not found: #{key}"} # block creates returned value
 
 # symbol is immutable
 'apple'.upcase! # APPLE
+:apple.upcase! # undefined method `upcase!' for :apple:Symbol (NoMethodError)
