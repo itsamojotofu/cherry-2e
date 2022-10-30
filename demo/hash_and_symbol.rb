@@ -57,3 +57,4 @@ x.delete('d') {|key| "Not found: #{key}"} # block creates returned value
 'apple'.upcase! # APPLE
 :apple.upcase! # undefined method `upcase!' for :apple:Symbol (NoMethodError)
 
+# 5.3.2 - how to use symbol
