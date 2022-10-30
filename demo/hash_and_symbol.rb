@@ -12,4 +12,7 @@
 # 5.2.1 - hash actions
 
 currencies = {'japan' => 'yen', 'us'  => 'dollar', 'india'  => 'ruppe'}
+# add 
 currencies['italy'] = 'euro'
+# overwrite
+currencies['japan'] = '円'
