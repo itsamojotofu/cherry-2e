@@ -31,4 +31,8 @@ x = {'a' => '1', 'b' => '2', 'c' => '3'}
 y = {'a' => '1', 'c' => '3', 'b' => '2'}
 
 # order in hash does not matter
-x == y
+x == y # true
+
+x.delete('a')
+
+x == y # false
