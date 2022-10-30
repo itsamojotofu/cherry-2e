@@ -26,3 +26,9 @@ currencies.each do |key, value|
 end
 
 # 5.2.3 - hash actions continued
+
+x = {'a' => '1', 'b' => '2', 'c' => '3'}
+y = {'a' => '1', 'c' => '3', 'b' => '2'}
+
+# order in hash does not matter
+x == y
