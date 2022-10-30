@@ -77,6 +77,8 @@ end
 
 # 5.4 - hash again
 
+# 5.4.1 - hash key
 # : reversed instead of using =>
 currencies = {japan: 'yen', us:'dollar', india: 'rupee'}
 currencies[:us]
+
