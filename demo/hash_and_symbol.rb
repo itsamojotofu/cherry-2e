@@ -105,3 +105,8 @@ def buy_burger(menu, drink, potato)
     # buy potato
   end
 end
+
+buy_burger('fish', true, true)
+# with keyword arg, easy to read
+buy_burger('cheese', drink: true, potato: true)
+
