@@ -93,3 +93,15 @@ idea[:noodle]
 # null
 idea[:peanut]
 idea['noodle']
+
+# 5.4.3 - keyword argument
+
+def buy_burger(menu, drink, potato)
+  # buy burger
+  if drink
+    # buy drink
+  end
+  if potato
+    # buy potato
+  end
+end
