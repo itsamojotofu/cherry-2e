@@ -96,7 +96,7 @@ idea['noodle']
 
 # 5.4.3 - keyword argument
 
-def buy_burger(menu, drink, potato)
+def buy_burger(menu, drink: true, potato: true)
   # buy burger
   if drink
     # buy drink
@@ -109,4 +109,4 @@ end
 buy_burger('fish', true, true)
 # with keyword arg, easy to read
 buy_burger('cheese', drink: true, potato: true)
-
+# can omit arg because default set
