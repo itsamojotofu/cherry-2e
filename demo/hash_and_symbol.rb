@@ -110,3 +110,7 @@ buy_burger('fish', true, true)
 # with keyword arg, easy to read
 buy_burger('cheese', drink: true, potato: true)
 # can omit arg because default set
+buy_burger('cheese', drink: false)
+
+# can omit default arg when def
+def buy_burger(menu, drink:, potato:)
