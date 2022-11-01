@@ -114,3 +114,9 @@ buy_burger('cheese', drink: false)
 
 # can omit default arg when def
 def buy_burger(menu, drink:, potato:)
+end
+
+# 5.5
+
+# convert length in another length unit
+#  convert_length(1, 'm', 'in') => 39.37
