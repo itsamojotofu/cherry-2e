@@ -6,3 +6,4 @@ class ConvertLengthTest < Minitest::Test
     assert_equal 39.37, convert_length(1,'m','n')
   end
 end
+
