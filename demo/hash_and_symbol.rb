@@ -135,3 +135,4 @@ currencies.values
 currencies.has_key?(:japan)
 
 # key? include? member? are all alias of has_key?
+
