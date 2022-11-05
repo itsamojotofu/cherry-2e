@@ -128,3 +128,8 @@ end
 currencies = {japan: 'yen', us:'dollar', india: 'rupee'}
 # return keys
 currencies.keys
+# return values
+currencies.values
+
+# return boolean
+currencies.has_key?(:japan)
