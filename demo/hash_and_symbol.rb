@@ -116,9 +116,8 @@ buy_burger('cheese', drink: false)
 def buy_burger(menu, drink:, potato:)
 end
 
-# 5.5
+# 5.5 => lib/convert_length.rb
 
 # convert length in another length unit
 #  convert_length(1, 'm', 'in') => 39.37
 
-# 5.5.1 - test code first
