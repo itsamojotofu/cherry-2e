@@ -124,3 +124,7 @@ end
 # 5.6
 
 # 5.6.1 - deepen hash and keyword arguments
+
+currencies = {japan: 'yen', us:'dollar', india: 'rupee'}
+# return keys
+currencies.keys
