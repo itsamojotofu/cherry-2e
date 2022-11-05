@@ -121,3 +121,6 @@ end
 # convert length in another length unit
 #  convert_length(1, 'm', 'in') => 39.37
 
+# 5.6
+
+# 5.6.1 - deepen hash and keyword arguments
