@@ -148,3 +148,7 @@ def buy_burge(menu, options = {})
   potato = options[:potato]
   # brabra
 end
+
+buy_burger('cheese', drink: true, potato: true)
+# no error occurs even if non-existing keyword is declared
+buy_burge('fish', salad: true)
