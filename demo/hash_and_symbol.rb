@@ -143,3 +143,8 @@ h = {us: 'dollar', india: 'rupee'}
 
 # 5.6.3 - pseudo-keyword argument
 
+def buy_burge(menu, options = {})
+  drink = options[:drink]
+  potato = options[:potato]
+  # brabra
+end
