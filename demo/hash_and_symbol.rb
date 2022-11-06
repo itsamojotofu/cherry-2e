@@ -133,6 +133,7 @@ currencies.values
 
 # return boolean
 currencies.has_key?(:japan)
-
 # key? include? member? are all alias of has_key?
+
+# 5.6.2 - expand hash with **
 
