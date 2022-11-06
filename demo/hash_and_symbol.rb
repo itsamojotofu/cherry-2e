@@ -137,3 +137,6 @@ currencies.has_key?(:japan)
 
 # 5.6.2 - expand hash with **
 
+h = {us: 'dollar', india: 'rupee'}
+# same as {japan:'yen'}.merge(h)
+{japan:'yen', **h}
