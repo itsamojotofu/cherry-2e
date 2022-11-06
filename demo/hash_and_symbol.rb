@@ -140,3 +140,6 @@ currencies.has_key?(:japan)
 h = {us: 'dollar', india: 'rupee'}
 # same as {japan:'yen'}.merge(h)
 {japan:'yen', **h}
+
+# 5.6.3 - pseudo-keyword argument
+
