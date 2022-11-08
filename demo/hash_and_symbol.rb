@@ -152,3 +152,5 @@ end
 buy_burger('cheese', drink: true, potato: true)
 # no error occurs even if non-existing keyword is declared
 buy_burge('fish', salad: true)
+
+# 5.6.4 - ** argument
