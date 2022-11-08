@@ -160,8 +160,12 @@ def buy_burger(menu, drink: true, potato: true, **others)
   puts others
 end
 
-buy_burger('fish', drinK: true, potato: true, salad: true, chicken: true) # {:drinK=>true, :salad=>true, :chicken=>true}
+buy_burger('fish', drinK: true, potato: true, salad: true, chicken: true) # => {:drink=>true, :salad=>true, :chicken=>true}
 
 # 5.6.5 - ** needs to be declared
 
 buy_burger('fish', **params)
+
+# 5.6.6 - {} can be abbriveated
+
+buy_burger('cheese', "drink"=>true, "salad"=>true) # => {"drink"=>true, "salad"=>true}
