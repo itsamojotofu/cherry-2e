@@ -141,7 +141,7 @@ h = {us: 'dollar', india: 'rupee'}
 # same as {japan:'yen'}.merge(h)
 {japan:'yen', **h}
 
-# 5.6.3 - pseudo-keyword argument
+# 5.6.3 - pseudo-keyword argument (not recommended)
 
 def buy_burge(menu, options = {})
   drink = options[:drink]
@@ -154,3 +154,4 @@ buy_burger('cheese', drink: true, potato: true)
 buy_burge('fish', salad: true)
 
 # 5.6.4 - ** argument
+
