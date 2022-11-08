@@ -175,3 +175,18 @@ buy_burger('cheese', "drink"=>true, "salad"=>true) # => {"drink"=>true, "salad"=
 puts({foo:1,bar:2})
 
 # 5.6.8 - hash to array, array to hash
+
+currencies = {japan: 'yen', india: 'rupee', us: 'dollar' }
+currencies.to_a
+currencies.to_h
+
+# 5.6.9 - set default value for hash
+
+h = Hash.new('hello') # pattern 1
+h = Hash.new {'hello'} # pattern 2
+
+h = Hash.new { |hash,key| hash[key]= 'hello'}
+h[:boo]
+h[:far]
+# => {:boo=>"hello", :far=>"hello"}
+
