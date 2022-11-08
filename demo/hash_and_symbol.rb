@@ -161,3 +161,7 @@ def buy_burger(menu, drink: true, potato: true, **others)
 end
 
 buy_burger('fish', drinK: true, potato: true, salad: true, chicken: true) # {:drinK=>true, :salad=>true, :chicken=>true}
+
+# 5.6.5 - ** needs to be declared
+
+buy_burger('fish', **params)
