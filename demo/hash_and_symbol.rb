@@ -169,3 +169,9 @@ buy_burger('fish', **params)
 # 5.6.6 - {} can be abbriveated
 
 buy_burger('cheese', "drink"=>true, "salad"=>true) # => {"drink"=>true, "salad"=>true}
+
+# 5.6.7 - trivia on hash
+
+puts({foo:1,bar:2})
+
+# 5.6.8 -
