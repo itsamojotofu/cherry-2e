@@ -143,7 +143,7 @@ h = {us: 'dollar', india: 'rupee'}
 
 # 5.6.3 - pseudo-keyword argument (not recommended)
 
-def buy_burge(menu, options = {})
+def buy_burger(menu, options = {})
   drink = options[:drink]
   potato = options[:potato]
   # brabra
@@ -155,3 +155,9 @@ buy_burge('fish', salad: true)
 
 # 5.6.4 - ** argument
 
+def buy_burger(menu, drink: true, potato: true, **others)
+  # others as hash
+  puts others
+end
+
+buy_burger('fish', drinK: true, potato: true, salad: true, chicken: true) # {:drinK=>true, :salad=>true, :chicken=>true}
