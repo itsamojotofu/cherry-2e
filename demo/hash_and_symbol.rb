@@ -174,4 +174,4 @@ buy_burger('cheese', "drink"=>true, "salad"=>true) # => {"drink"=>true, "salad"=
 
 puts({foo:1,bar:2})
 
-# 5.6.8 -
+# 5.6.8 - hash to array, array to hash
