@@ -192,3 +192,13 @@ h[:far]
 
 # 5.7
 
+# 5.7.1 - ways to produce symbols
+
+:+
+:123 # syntax error
+:'123' # valid
+
+name = 'Alice'
+:"#{name.upcase}" #=> :ALICE
+
+hash = {'abc': 123}
