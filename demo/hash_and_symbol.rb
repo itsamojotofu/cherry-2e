@@ -202,3 +202,12 @@ name = 'Alice'
 :"#{name.upcase}" #=> :ALICE
 
 hash = {'abc': 123}
+
+# 5.7.2 - create symbol with %
+
+%s!ruby is funny! # :"ruby is funny"
+%s(ruby is funny)
+
+# create symbol array with %i
+
+%i(One Two Three) # [:One, :Two, :Three]
