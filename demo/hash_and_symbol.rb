@@ -211,3 +211,5 @@ hash = {'abc': 123}
 # create symbol array with %i
 
 %i(One Two Three) # [:One, :Two, :Three]
+
+#
