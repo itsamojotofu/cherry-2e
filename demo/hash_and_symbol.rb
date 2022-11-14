@@ -219,3 +219,6 @@ sym = :apple
 
 str.to_sym == sym # true
 
+# 5.8 - summary
+
+
