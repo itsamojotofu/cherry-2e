@@ -212,4 +212,10 @@ hash = {'abc': 123}
 
 %i(One Two Three) # [:One, :Two, :Three]
 
-#
+# 5.7.3 - relations btw string and symbol
+
+str = 'apple'
+sym = :apple
+
+str.to_sym == sym # true
+
