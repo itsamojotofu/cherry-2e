@@ -44,3 +44,22 @@ Java and JavaScript are different.
 TEXT
 
 text.scan(/[A-Z][A-Za-z]+/)
+
+# 6.3
+
+# format: /Regexp/
+
+r = /\d{3}-\d{4}/
+r.class # Regexp
+
+if '123-1234' =~ r
+  puts 'matching'
+else
+  puts 'not matching'
+end
+
+if '123-1234' !~ r
+  puts 'not matching'
+else
+  puts 'matching'
+end
