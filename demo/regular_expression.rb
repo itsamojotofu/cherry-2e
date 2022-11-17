@@ -64,3 +64,11 @@ else
   puts 'matching'
 end
 
+# 6.3.2 - capture 
+
+birthday = '2003年11月12日'
+m = /(\d+)年(\d+)月(\d+)日/.match(birthday)
+m[1] # 2003
+m[2] # 11
+m[3] # 12
+
