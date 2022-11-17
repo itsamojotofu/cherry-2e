@@ -78,3 +78,4 @@ m = /(?<year>\d+)年(?<month>\d+)月(?<date>\d+)日/.match(birthday)
 year # 2003
 month # 11
 date # 12
+
