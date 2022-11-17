@@ -64,7 +64,7 @@ else
   puts 'matching'
 end
 
-# 6.3.2 - capture 
+# 6.3.2 - capture func
 
 birthday = '2003年11月12日'
 m = /(\d+)年(\d+)月(\d+)日/.match(birthday)
@@ -72,3 +72,9 @@ m[1] # 2003
 m[2] # 11
 m[3] # 12
 
+# 6.3.3 - naming capture variables
+
+m = /(?<year>\d+)年(?<month>\d+)月(?<date>\d+)日/.match(birthday)
+year # 2003
+month # 11
+date # 12
