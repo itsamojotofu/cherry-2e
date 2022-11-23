@@ -66,7 +66,7 @@ end
 
 # 6.3.2 - capture func
 
-birthday = '2003年11月12日'
+birthday = '私の誕生日は2003年11月12日'
 m = /(\d+)年(\d+)月(\d+)日/.match(birthday)
 m[1] # 2003
 m[2] # 11
@@ -78,4 +78,10 @@ m = /(?<year>\d+)年(?<month>\d+)月(?<date>\d+)日/.match(birthday)
 year # 2003
 month # 11
 date # 12
-  
+
+# 6.3.4 - get match data with $
+
+birthday = '私の誕生日は2003年11月12日'
+birthday =~ /(\d+)年(\d+)月(\d+)日/
+
+$~ # => #<MatchData "2003年11月12日" 1:"2003" 2:"11" 3:"12">
