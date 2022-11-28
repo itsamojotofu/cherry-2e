@@ -6,3 +6,4 @@ class ConvertHashSyntaxTest < Minitest::Test
     assert_equal '{}', convert_hash_syntax('{}')
   end
 end
+
