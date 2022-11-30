@@ -109,3 +109,17 @@ Regexp.new('\d{3}-\d{4}') # = /\d{3}-\d{4}/
 
 %r{https://example\.com}
 
+# 6.5.2 - Regex in case(when)
+
+text = '03-1234-5678'
+
+case text
+when /^\d{3}-\d{4}$/
+  puts "post code"
+when /^\d{4}\/\d{1,2}\/\d{1,2}$/
+  puts 'date'
+when /^\d+-\d+-\d+$/
+  puts 'phone number'
+end
+
+# 6.5.3 -  
