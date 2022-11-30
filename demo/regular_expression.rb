@@ -122,4 +122,29 @@ when /^\d+-\d+-\d+$/
   puts 'phone number'
 end
 
-# 6.5.3 -  
+# 6.5.3 - options for creating regex object
+
+'HELLO' =~ /hello/i # => 0
+
+regexp = Regexp.new('hello', Regexp::IGNORECASE) # => /hello/i
+'HELLO' =~ regexp
+
+"Hello\nSir" =~ /Hello.Sir/ # => nil
+"Hello\nSir" =~ /Hello.Sir/m # => 0
+
+regexp = Regexp.new('Hello.Sir', Regexp::MULTILINE) # => /Hello.Sir/m
+"Hello\nSir" =~ regexp
+
+# Regexp::EXTENDED for ignoring space
+regexp = /
+  \d{3}
+  -
+  \d{4}
+/x 
+
+'123-4567' =~ regexp # => 0
+
+"HELLO\nBYE" =~ /Hello.Bye/im # => 0
+
+regexp = Regexp.new('Hello.Bye', Regexp::IGNORECASE | Regexp::MULTILINE) # => /Hello.Bye/mi
+"HELLO\nBYE" =~ regexp
