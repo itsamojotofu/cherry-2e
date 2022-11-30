@@ -18,9 +18,7 @@ class ConvertHashSyntaxTest < Minitest::Test
     }
     TEXT
 
-
-
-    # assert_equal '{}', convert_hash_syntax('{}')
+    assert_equal expected, convert_hash_syntax(old_syntax)
   end
 end
 
