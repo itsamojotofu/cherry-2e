@@ -100,3 +100,12 @@ birthday.scan(/(\d+)年(\d+)月(\d+)日/) # => [["2003", "11", "12"], ["2004", "
 
 # 6.5.1 - a few ways to prodce regex object
 
+Regexp.new('\d{3}-\d{4}') # = /\d{3}-\d{4}/
+
+# need to escaple / with \
+/https:\/\/example\.com/
+
+%r!https:/example\.com!
+
+%r{https://example\.com}
+
