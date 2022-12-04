@@ -143,7 +143,6 @@ regexp = /
 /x 
 
 '123-4567' =~ regexp # => 0
-
 "HELLO\nBYE" =~ /Hello.Bye/im # => 0
 
 regexp = Regexp.new('Hello.Bye', Regexp::IGNORECASE | Regexp::MULTILINE) # => /Hello.Bye/mi
