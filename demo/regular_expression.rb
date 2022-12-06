@@ -106,7 +106,7 @@ Regexp.new('\d{3}-\d{4}') # = /\d{3}-\d{4}/
 /https:\/\/example\.com/
 # ==
 %r!https:/example\.com!
-
+# ==
 %r{https://example\.com}
 
 # 6.5.2 - Regex in case(when)
